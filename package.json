@@ -1,0 +1,12 @@
+{
+  "name": "simple_mvc",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-fileinput": "^4.3.4",
+    "jquery": "^3.1.1",
+    "moment": "^2.16.0"
+  }
+}

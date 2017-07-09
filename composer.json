@@ -1,0 +1,25 @@
+{
+    "name": "shadowfiend/simple_mvc",
+    "description": "MVC free test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Bobrov",
+            "email": "pandaphotoshopdesigner@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShadowFiend\\Framework\\": "Framework/",
+            "App\\": "App/"
+        },
+        "files" : [
+            "Framework/Helpers/DumpingHelpers.php"
+        ]
+    }
+}
