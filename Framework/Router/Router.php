@@ -54,7 +54,6 @@ class Router
 	 */
 	public function run()
 	{
-
 		foreach ($this->routes as $route) {
 			if ($route->checkEquals($this->uri) && $route->checkRequestMethod($this->http_method)) {
 				return $this->runRoute($route);
@@ -65,7 +64,7 @@ class Router
 
 	public function throwBadPage()
 	{
-		throw new \Exception("This page doesnt exists");
+		throw new \Exception("This page doesn't exists");
 	}
 
 
